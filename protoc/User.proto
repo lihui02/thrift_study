@@ -1,0 +1,9 @@
+syntax = "proto2";
+option java_package = "com.lihui.study.model";
+option java_outer_classname = "PersonPb1";
+
+message PersonPb {
+     required int32 id = 1;
+     optional string name = 2;
+     optional string email = 3;
+}
